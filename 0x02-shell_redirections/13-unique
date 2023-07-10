@@ -1,2 +1,2 @@
 #!/bin/bash
-echo words=$(cat) | sort | uniq -u
+echo words=$(cat) | echo "$words" | sort | uniq -u
