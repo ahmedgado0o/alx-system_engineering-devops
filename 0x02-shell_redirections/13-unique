@@ -1,2 +1,2 @@
 #!/bin/bash
-read -p words | echo $words | tr ' ' '\n' | sort | uniq -u
+echo words=$(cat) | sort | uniq -u
