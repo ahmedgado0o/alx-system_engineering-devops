@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $PATN | tr ':' "\n' | wc -l
+echo $PATH | wc -d
