@@ -1,0 +1,2 @@
+#!/bin/bash
+echo $PATN | wc -l
